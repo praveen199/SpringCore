@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+	<bean id="id1" class="DemoBean">
+		<property name="name">
+			<value>PRAVEEN</value>
+		</property>
+
+		<property name="marks">
+			<list>
+				<value>80</value>
+				<value>90</value>
+				<value>60</value>
+			</list>
+		</property>
+
+		<property name="names">
+			<list>
+				<value>AAAA</value>
+				<value>BBBB</value>
+				<value>CCCC</value>
+			</list>
+		</property>
+
+		<property name="phones">
+			<set>
+				<value>88888</value>
+				<value>99999</value>
+				<value>77777</value>
+			</set>
+		</property>
+
+		<property name="capitals">
+			<map>
+				<entry key="india">
+					<value>delhi</value>
+				</entry>
+				<entry key="japan">
+					<value>tokyo</value>
+				</entry>
+			</map>
+		</property>
+
+		<property name="faculities">
+			<props>
+				<prop key="pune1">swargate</prop>
+				<prop key="pune2">baner</prop>
+				<prop key="pune3">wakad</prop>
+			</props>
+		</property>
+	</bean>
+</beans> 
