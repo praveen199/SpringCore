@@ -10,13 +10,17 @@
 			<constructor-arg type="java.lang.String" value="This is spring framework" /> 
 			
 			<constructor-arg index="0" value="2001" />
-			<constructor-arg index="1" value="This is spring framework" />-->
+			<constructor-arg index="1" value="This is spring framework" />
 			
 			<constructor-arg ref = "class1"/>
       		<constructor-arg>
       			 <ref bean= "class2"/>
-      		</constructor-arg>
+      		</constructor-arg>-->
+      		
+      		<constructor-arg name="uname" value="Hello Praveen" />
+      		<constructor-arg name="pwd" value="This is spring framework" />
+      		
 	</bean>
-	<bean id = "class1" class = "constructorInjection.Class1"/>
-   	<bean id = "class2" class = "constructorInjection.Class2"/>
+	<!-- <bean id = "class1" class = "constructorInjection.Class1"/>
+   		 <bean id = "class2" class = "constructorInjection.Class2"/> -->
 </beans>

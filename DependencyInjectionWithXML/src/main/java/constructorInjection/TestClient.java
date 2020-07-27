@@ -10,6 +10,5 @@ public class TestClient {
 		DemoBean bean=(DemoBean)ctx.getBean("id1");
 		bean.print();
 	}
-
 }
 	

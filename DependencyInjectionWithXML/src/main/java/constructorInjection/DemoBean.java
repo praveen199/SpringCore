@@ -13,7 +13,7 @@ public class DemoBean {
 	}
 	public void print(){
 		System.out.println("Id : " + id + " & " +"msg : " + msg);
-	}*/
+	}
 
 	private Class1 class1;
 	private Class2 class2;
@@ -27,5 +27,18 @@ public class DemoBean {
 	public void print(){
 		class1.printId();
 		class2.printMsg();
+	}*/
+	
+	private String uname,pwd;
+	
+	public DemoBean(String uname, String pwd) {
+		super();
+		this.uname = uname;
+		this.pwd = pwd;
 	}
+
+	public void print(){
+		System.out.println("name : " + uname + " & " +"pwd : " + pwd);
+	}
+	
 }
