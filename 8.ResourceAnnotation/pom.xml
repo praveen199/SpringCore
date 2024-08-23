@@ -4,7 +4,7 @@
   <artifactId>8.ResourceAnnotation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <properties>
-		<spring.version>5.2.7.RELEASE</spring.version>
+		<spring.version>5.2.22.RELEASE</spring.version>
 	</properties>
 	<dependencies>
 		<dependency>
